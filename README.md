@@ -1,6 +1,6 @@
 ## what it is 
 
-![alt text](image.png)
+![alt text](pid_is_system.png)
 
 At its heart, a PID controller does one thing: it looks at the gap between where you are and where you want to be, and decides how hard to push to close that gap.
 
@@ -16,7 +16,7 @@ Where:
 
 ## Components 
 
-![alt text](image-1.png)
+![alt text](pid_components.png)
 
 ### Proportional (P)
 The P term produces an output proportional to the current error: **$P_{output}=K_p×e(t)$**
@@ -54,7 +54,7 @@ and for discrete form
 
 #### $D_{output} = K_d \frac{(e[n]-e[n-1])}{\Delta t}$
 
-![alt text](image-2.png)
+![alt text](noise.png)
 
 when dealing with sensors we almost always encounter **noise** the problem that noisy data has high frequency -> high slop -> high derivative -> larger error 
 so we need to add Low pass filter to block high frequencies .
