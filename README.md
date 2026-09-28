@@ -1,6 +1,6 @@
 ## what it is 
 
-![alt text](pid_is_system.png)
+![alt text](pid_in_system.png)
 
 At its heart, a PID controller does one thing: it looks at the gap between where you are and where you want to be, and decides how hard to push to close that gap.
 
